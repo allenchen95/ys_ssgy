@@ -5,29 +5,41 @@ html{
     margin: 0;
 }
 body{
-    background: url(../imgs/bg.png) no-repeat;
-    background-size: 100% ;
+	background-image: url(../imgs/bg.png);
     margin: 0;
-    padding-left:10%;
-    padding-right: 10%;
+    padding-left:5%;
+    padding-right: 5%;
 }
-.wrapper{
-    
+.title{
+    margin-top: 15%
 }
-.left{
-    float: left;
-    margin-top: 20%;
-    margin-left: 20%;
+.info{
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 0.05em;
+    margin-top: 5px;
 }
-.right{
-    float:right;
-    margin-top: 20%;
-    margin-right: 20%;
+.links{
 }
-.bottom{
-    position: fixed;
-    bottom:1%; 
-    left: 50%;
-    margin-left: -169px;
+.btn{
+    display: inline-block;
+    width: 170px;
+    height:60px;
+    border: 1px solid #fff;
+    margin-right: 20px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    margin-top: 40px;
+    transition: all 0.3s;
 }
-
+.btn:hover{
+    background: #fff;
+    color: #2b4a68;
+    transition: all 0.3s;
+}
+.img_web{
+    float: right;
+    width: 50%;
+}
